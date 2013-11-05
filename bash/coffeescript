@@ -1,0 +1,2 @@
+# coffeescript
+export PATH=/usr/local/share/npm/lib/node_modules/coffee-script/bin/:$PATH
