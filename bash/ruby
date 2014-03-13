@@ -1,6 +1,0 @@
-alias b="bundle"
-alias bu="bundle update"
-alias rs="rails s"
-alias rc="rails c"
-alias r="rake"
-alias be="bundle exec"

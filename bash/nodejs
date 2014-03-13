@@ -1,2 +1,0 @@
-# TODO check node is setup like this!
-export PATH=/usr/local/share/npm/bin:$PATH

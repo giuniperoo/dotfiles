@@ -1,7 +1,30 @@
 # env values used by other scripts and applications
 export PATH=$HOME/.rbenv/bin:$HOME/bin:/usr/local/bin:$PATH
+export EDITOR="subl -w"
 export TERM=xterm-256color
-export EDITOR="subl"
-export PROJECT_BASE=$HOME/bonusbox/projects
+export PROJECT_BASE=$HOME/Develop/bonusbox/projects
 export ORGANIZATION_GITHUB_LOGIN="bonusboxme"
 export AWS_ENV="production"
+
+# add npm binaries to PATH
+# this seems a little bit hacky from my point of view, as you're not supporting
+# multiple versions of npm.
+export PATH=/usr/local/share/npm/bin:$PATH
+
+# https://github.com/aziz/tmuxinator#bash
+source ~/.bin/tmuxinator.bash
+
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# update path for homebrew
+PATH="/usr/local/sbin:$PATH"
+
+# Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin
+
+# bonusbox helper script
+eval "$(/Users/tringo/Develop/bonusbox/bb/bin/bb init -)"
+
+# update path for local install of musicjson
+PATH="$HOME/Develop/musicjson/bin:$PATH"

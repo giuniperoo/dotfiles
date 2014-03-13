@@ -1,1 +1,35 @@
-alias p="project"
+# RUBY ALIASSES #
+alias b="bundle"
+alias bu="bundle update"
+alias rs="rails s"
+alias rc="rails c"
+alias r="rake"
+alias be="bundle exec"
+
+# GIT ALIASSES #
+alias gsh="git stash"
+alias gst="git status --short --branch"
+alias gdf="git diff"
+alias gdt="git difftool"
+alias glo="git log"
+alias gps="git push"
+alias gpl="git pull"
+alias gco="git checkout"
+alias gci="git commit"
+alias gcl="git clone"
+alias gad="git add"
+alias grm="git rm"
+alias gmv="git mv"
+alias gtg="git tag"
+alias gbr="git branch"
+
+# https://github.com/geelen/git-smart
+alias gsp="git smart-pull"
+alias gsm="git smart-merge"
+alias gsl="git smart-log"
+
+# BB ALIASSES #
+alias core="cd ~/Develop/bonusbox/core"
+alias retailers="cd ~/Develop/bonusbox/retailers"
+alias brief="cd ~/Develop/bonusbox/briefkasten"
+alias fs="foreman start"
