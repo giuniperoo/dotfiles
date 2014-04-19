@@ -1,0 +1,24 @@
+[push]
+  default = current
+
+[alias]
+  co = checkout
+  st = status
+  br = branch
+  who = shortlog -s --
+  df = diff
+  ci = commit
+  lg = log -p
+
+[user]
+  name = Troy Giunipero
+  email = giunipero@gmail.com
+
+[core]
+  autocrlf = input
+
+[apply]
+  whitespace = nowarn
+
+[color]
+  ui = auto
