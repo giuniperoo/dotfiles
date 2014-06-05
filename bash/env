@@ -1,5 +1,5 @@
 # env values used by other scripts and applications
-export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export EDITOR="subl -w"
 export TERM=xterm-256color
 export PROJECT_BASE=$HOME/Develop/bonusbox/projects
