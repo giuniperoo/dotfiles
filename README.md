@@ -2,7 +2,7 @@
 
 Simple dotfiles file. Adapted from https://github.com/riethmayer/dotfiles.
 
-## installation
+## Installation
 Clone the dotfiles repository to your target dotfiles directory.
 
     mkdir -p $HOME/src
