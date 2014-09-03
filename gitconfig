@@ -1,5 +1,3 @@
-[push]
-  default = current
 
 [alias]
   co = checkout
@@ -10,15 +8,25 @@
   ci = commit
   lg = log -p
 
-[user]
-  name = Troy Giunipero
-  email = giunipero@gmail.com
-
-[core]
-  autocrlf = input
-
 [apply]
   whitespace = nowarn
 
+[core]
+  autocrlf = input
+  editor = subl -w
+
 [color]
   ui = auto
+
+[pull]
+  rebase = true
+
+[push]
+  default = simple
+
+[rerere]
+  enabled = true
+
+[user]
+  name = Troy Giunipero
+  email = giunipero@gmail.com
