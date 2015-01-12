@@ -13,7 +13,6 @@ Then edit your `$HOME/.bash_profile` file to look like this:
     # $HOME/.bash_profile
     export DOTFILES=$HOME/src/dotfiles
     source $DOTFILES/bash/env
-    source $DOTFILES/bash/prompt
     source $DOTFILES/bash/completion
     source $DOTFILES/bash/aliases
 
