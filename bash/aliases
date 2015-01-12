@@ -1,11 +1,3 @@
-# RUBY ALIASSES #
-alias b="bundle"
-alias bu="bundle update"
-alias rs="rails s"
-alias rc="rails c"
-alias r="rake"
-alias be="bundle exec"
-
 # GIT ALIASSES #
 alias gsh="git stash"
 alias gst="git status --short --branch"
@@ -28,8 +20,22 @@ alias gsp="git smart-pull"
 alias gsm="git smart-merge"
 alias gsl="git smart-log"
 
-# BB ALIASSES #
+# RAILS ALIASSES #
+alias b="bundle"
+alias bu="bundle update"
+alias rs="rails s"
+alias rc="rails c"
+alias r="rake"
+alias be="bundle exec"
+alias fs="foreman start"
+
+# PROJECT ALIASSES #
 alias core="cd ~/Develop/bonusbox/core"
 alias retailers="cd ~/Develop/bonusbox/retailers"
 alias brief="cd ~/Develop/bonusbox/briefkasten"
-alias fs="foreman start"
+
+alias bonagora="cd ~/Develop/bonagora/webapp-thorax"
+alias landingpage="cd ~/Develop/bonagora/landingpage"
+
+alias sample="cd ~/Develop/sample_app"
+alias eureka="cd ~/Develop/eureka"
