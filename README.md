@@ -18,6 +18,6 @@ Then edit your `$HOME/.bash_profile` file to look like this:
 
 Link your config files:
 
-    ln -s $DOTFILES_DIR/gemrc $HOME/.gemrc
-    ln -s $DOTFILES_DIR/bashrc $HOME/.bashrc
-    ln -s $DOTFILES_DIR/gitconfig $HOME/.gitconfig
+    ln -s $DOTFILES/gemrc $HOME/.gemrc
+    ln -s $DOTFILES/bashrc $HOME/.bashrc
+    ln -s $DOTFILES/gitconfig $HOME/.gitconfig
