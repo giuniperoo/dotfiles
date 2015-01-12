@@ -22,4 +22,4 @@ PATH=$PATH:$HOME/.rvm/bin
 [ -f $HOME/.travis ] && source $HOME/.travis/travis.sh
 
 # bonusbox helper script
-eval "$($HOME/Develop/bonusbox/bb/bin/bb init -)"
+# eval "$($HOME/Develop/bonusbox/bb/bin/bb init -)"
