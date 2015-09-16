@@ -30,12 +30,7 @@ alias be="bundle exec"
 alias fs="foreman start"
 
 # PROJECT ALIASSES #
-alias core="cd ~/Develop/bonusbox/core"
-alias retailers="cd ~/Develop/bonusbox/retailers"
-alias brief="cd ~/Develop/bonusbox/briefkasten"
-
-alias bonagora="cd ~/Develop/bonagora/webapp-thorax"
-alias landingpage="cd ~/Develop/bonagora/landingpage"
+alias bonagora="cd ~/Develop/bonagora/webapp"
 
 alias sample="cd ~/Develop/sample_app"
 alias eureka="cd ~/Develop/eureka"
