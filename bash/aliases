@@ -31,6 +31,6 @@ alias fs="foreman start"
 
 # PROJECT ALIASSES #
 alias bonagora="cd ~/Develop/bonagora/webapp"
-
+alias pulse="cd ~/Develop/team-pulse"
 alias sample="cd ~/Develop/sample_app"
 alias eureka="cd ~/Develop/eureka"

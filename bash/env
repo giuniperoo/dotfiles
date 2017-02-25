@@ -15,5 +15,4 @@ export PATH=/usr/local/share/npm/bin:$PATH
 # add RVM to PATH for scripting
 PATH=$PATH:$HOME/.rvm/bin
 
-ssh-add $HOME/.ssh/Webapp.pem
-ssh-add $HOME/.ssh/WebappEU-C1.pem
+ssh-add $HOME/.ssh/id_rsa
