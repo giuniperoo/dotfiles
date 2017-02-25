@@ -7,15 +7,19 @@
   ci = commit
   lg = log -p
 
+[user]
+  name = Troy Giunipero
+  email = giunipero@gmail.com
+
 [apply]
   whitespace = nowarn
 
 [core]
   autocrlf = input
-  editor = sublime -w
+  editor = atom -w
 
 [color]
-  ui = auto
+  ui = true
 
 [pull]
   rebase = true
@@ -26,6 +30,5 @@
 [rerere]
   enabled = true
 
-[user]
-  name = Troy Giunipero
-  email = giunipero@gmail.com
+[merge]
+	tool = opendiff
